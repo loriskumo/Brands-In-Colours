@@ -11,7 +11,7 @@ Have you ever said that when designing or developing a website? Yes? Me too. I o
 As just a list of SASS variables is not really sexy, I also made [this small webpage](http://loriskumo.github.io/Brands-In-Colours/) that you can use as a colour reference when designing. I will keep adding new colours in time but I think we have a nice list for starters.
 
 ### How to use it
-Just grab the [Brands In Colours source SASS file](https://github.com/loriskumo/Brands-In-Colours/blob/gh-pages/stylesheets/sass/_brandsincolours.scss) and plug it in your own project. As simple as that. The variables look like $nameofthebrand-bic, simply use those in your SASS files. (the suffix "-bic" was added to avoid conflicts with other variables that may already use that name)
+Just grab the [Brands In Colours source SASS file](https://github.com/loriskumo/Brands-In-Colours/blob/gh-pages/stylesheets/sass/_brandsincolours.scss) and plug it in your own project. As simple as that. The variables look like _$nameofthebrand-bic_, simply use those in your SASS files. (the suffix "-bic" was added to avoid conflicts with other variables that may already use that name)
 If you don't use SASS, you can still use it as a text reference, even the RGB values are available. :-)
 
 ### Contribute
