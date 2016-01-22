@@ -1,6 +1,6 @@
 # Brands in colours
 
-(http://loriskumo.github.io/Brands-In-Colours/)
+http://loriskumo.github.io/Brands-In-Colours/
 
 ### About "Brands in Colours"
 > "What's the colour of the Twitter logo again?"
