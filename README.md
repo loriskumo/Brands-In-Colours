@@ -17,5 +17,5 @@ Just grab the [Brands In Colours source SASS file](https://github.com/loriskumo/
 If you don't use SASS, you can still use it as a text reference, even the RGB values are available. :-)
 
 ### Contribute
-If you feel like I'm missing something, don't hesitate to add colours to the [_brandsincolours.sass](https://github.com/loriskumo/Brands-In-Colours/blob/gh-pages/stylesheets/sass/_brandsincolours.scss) file. 
-It will only take you a couple of seconds. :-)
+If you feel like I'm missing something, don't hesitate to add colours to the [_brandsincolours.sass](https://github.com/loriskumo/Brands-In-Colours/blob/gh-pages/stylesheets/sass/_brandsincolours.scss) file.
+It will only take you a couple of seconds. I have ordered them by alphabetical order for easier use. Try to keep the same logic. :-)
