@@ -1,0 +1,242 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* responsive stuff */
+img {
+  max-width: 100%;
+  height: auto; }
+
+a {
+  text-decoration: none; }
+
+/* clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1; }
+
+/* MAIN COLOURS--------------*/
+/* FONTS--------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  background: #F4F4F4;
+  font-family: Inconsolata, monospace;
+  font-size: 16px;
+  font-size: 1,6rem;
+  color: #444;
+  line-height: 1.3;
+  border-top: 10px solid #666; }
+
+header, footer {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto; }
+
+header {
+  padding: 20px 0 30px; }
+
+footer {
+  padding: 30px 0 20px; }
+
+h1 {
+  font-size: 30px;
+  font-size: 3rem;
+  font-weight: bold; }
+
+a {
+  color: inherit; }
+
+p a {
+  color: #666;
+  border-bottom: 1px #666 solid;
+  text-decoration: none; }
+  p a:hover {
+    color: #AB00FF;
+    border-bottom-color: #AB00FF; }
+
+/*.button{
+	background: $red;
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 5px;
+	
+	&:hover{
+		background: $white;
+		color: $red;
+	}
+}*/
+p strong {
+  font-weight: bold; }
+
+.colorref {
+  text-transform: uppercase; }
+
+::selection {
+  background: rgba(171, 0, 255, 0.6);
+  color: white; }
+
+/*	@extend %vertical-align; */
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+.behance {
+  background-color: #1769FF; }
+
+section ol li {
+  width: 90%;
+  padding: 20px 5% 20px;
+  color: #F4F4F4; }
+  section ol li.dark {
+    color: #666; }
+    section ol li.dark span {
+      background: rgba(102, 102, 102, 0.1); }
+  section ol li h3 {
+    font-size: 18px;
+    font-size: 1,8rem;
+    margin-bottom: 4px;
+    font-weight: bold; }
+  section ol li span {
+    background: rgba(244, 244, 244, 0.2);
+    padding: 2px; }
+
+.behance {
+  background-color: #1769FF; }
+
+.dribbble {
+  background-color: #ea4c89; }
+
+.facebook {
+  background-color: #3B5998; }
+
+.flickr {
+  background-color: #0063dd; }
+
+.flickr-2 {
+  background-color: #ff0085; }
+
+.foursquare {
+  background-color: #0072b1; }
+
+.googleplus {
+  background-color: #dd4b39; }
+
+.instagram {
+  background-color: #3F729B; }
+
+.linkedin {
+  background-color: #0976B4; }
+
+.pinterest {
+  background-color: #cd1d1f; }
+
+.quora {
+  background-color: #BC2016; }
+
+.snapchat {
+  background-color: #FFFA37; }
+
+.spotify {
+  background-color: #32CE64; }
+
+.swarm {
+  background-color: #ffa633; }
+
+.tumblr {
+  background-color: #35465d; }
+
+.twitter {
+  background-color: #55ACEE; }
+
+.vimeo {
+  background-color: #1ab7ea; }
+
+.vine {
+  background-color: #00B489; }
+
+.whatsapp {
+  background-color: #64d448; }
+
+.youtube {
+  background-color: #CC181E; }
+
+@media all and (min-width: 600px) {
+  section ol li {
+    width: 40%;
+    padding: 20px 5% 20px;
+    float: left; } }
+@media all and (min-width: 900px) {
+  /*body{
+  	font-size: 18px;
+  	font-size: 1,8rem;
+  }*/
+  h1 {
+    font-size: 40px;
+    font-size: 4rem; }
+
+  section ol li {
+    width: 20%;
+    padding: 20px 2.5% 20px;
+    float: left; } }
+@media all and (min-width: 1200px) {
+  section ol li {
+    width: 18%;
+    padding: 20px 1% 20px;
+    float: left; } }
