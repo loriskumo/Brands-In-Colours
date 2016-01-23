@@ -68,8 +68,8 @@ a {
 .cf {
   *zoom: 1; }
 
-/* MAIN COLOURS--------------*/
-/* FONTS--------------*/
+/* 	Brands-In-Colours, @loriskumo
+	https://github.com/loriskumo/Brands-In-Colours */
 html {
   font-size: 62.5%; }
 
@@ -109,17 +109,6 @@ p a {
     color: #AB00FF;
     border-bottom-color: #AB00FF; }
 
-/*.button{
-	background: $red;
-	display: inline-block;
-	padding: 10px 15px;
-	border-radius: 5px;
-	
-	&:hover{
-		background: $white;
-		color: $red;
-	}
-}*/
 p strong {
   font-weight: bold; }
 
@@ -130,30 +119,26 @@ p strong {
   background: rgba(171, 0, 255, 0.6);
   color: white; }
 
-/*	@extend %vertical-align; */
-.box {
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px; }
+.colourslist ol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #dbdbdb; }
 
-.behance {
-  background-color: #1769FF; }
-
-section ol li {
+.colourslist ol li {
   width: 90%;
   padding: 20px 5% 20px;
   color: #F4F4F4; }
-  section ol li.dark {
+  .colourslist ol li.dark {
     color: #666; }
-    section ol li.dark span {
+    .colourslist ol li.dark span {
       background: rgba(102, 102, 102, 0.1); }
-  section ol li h3 {
+  .colourslist ol li h3 {
     font-size: 18px;
     font-size: 1,8rem;
     margin-bottom: 4px;
     font-weight: bold; }
-  section ol li span {
+  .colourslist ol li span {
     background: rgba(244, 244, 244, 0.2);
     padding: 2px; }
 
@@ -217,11 +202,16 @@ section ol li {
 .youtube {
   background-color: #CC181E; }
 
+.colourslist ol li.more {
+  flex-grow: 1; }
+
 @media all and (min-width: 600px) {
-  section ol li {
+  .colourslist ol {
+    flex-direction: row; }
+
+  .colourslist ol li {
     width: 40%;
-    padding: 20px 5% 20px;
-    float: left; } }
+    padding: 20px 5% 20px; } }
 @media all and (min-width: 900px) {
   /*body{
   	font-size: 18px;
@@ -231,12 +221,10 @@ section ol li {
     font-size: 40px;
     font-size: 4rem; }
 
-  section ol li {
+  .colourslist ol li {
     width: 20%;
-    padding: 20px 2.5% 20px;
-    float: left; } }
+    padding: 20px 2.5% 20px; } }
 @media all and (min-width: 1200px) {
-  section ol li {
+  .colourslist ol li {
     width: 18%;
-    padding: 20px 1% 20px;
-    float: left; } }
+    padding: 20px 1% 20px; } }

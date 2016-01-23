@@ -47,18 +47,6 @@ p a{
 	}
 }
 
-/*.button{
-	background: $red;
-	display: inline-block;
-	padding: 10px 15px;
-	border-radius: 5px;
-	
-	&:hover{
-		background: $white;
-		color: $red;
-	}
-}*/
-
 p strong{
 	font-weight: bold;
 }
@@ -72,31 +60,14 @@ p strong{
 	color: white;
 }
 
-
-%vertical-align {
-  position: relative;
-}
-/*	@extend %vertical-align; */
-
-
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
+.colourslist ol{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-color: darken($light, 10%)
 }
 
-.box { @include border-radius(10px); }
-
-@mixin border-radius($test) {
-.behance{background-color: $test;
-}
-}
-
-@include border-radius($behance-bic);
-
-
-section ol li{
+.colourslist ol li{
 	width: 90%;
 	padding: 20px 5% 20px;
 	color: $light;
@@ -139,13 +110,20 @@ section ol li{
 .whatsapp{background-color: 	$whatsapp-bic}
 .youtube{background-color: 		$youtube-bic}
 
+.colourslist ol li.more{
+	flex-grow: 1;
+}
+
 
 @media all and (min-width: 600px){ 
 
-section ol li{
+.colourslist ol{
+	flex-direction: row;
+}
+
+.colourslist ol li{
 	width: 40%;
 	padding: 20px 5% 20px;
-	float: left;
 	}
 }
 
@@ -161,18 +139,17 @@ h1{
 	font-size: 4rem;
 }
 
-section ol li{
+.colourslist ol li{
 	width: 20%;
 	padding: 20px 2.5% 20px;
-	float: left;
 	}
 }
 
 @media all and (min-width: 1200px){ 
 
-section ol li{
+.colourslist ol li{
 	width: 18%;
 	padding: 20px 1% 20px;
-	float: left;
 	}
+	
 }
