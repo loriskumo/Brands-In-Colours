@@ -89,18 +89,26 @@ p strong{
 	}
 }
 
+.adobe{background-color: 		$adobe-bic;}
+.airbnb{background-color: 		$airbnb-bic;}
 .behance{background-color: 		$behance-bic;}
 .dailymotion{background-color: 	$dailymotion-bic;}
 .dribbble{background-color: 	$dribbble-bic}
+.evernote{background-color: 	$evernote-bic}
 .facebook{background-color: 	$facebook-bic}
 .flickr{background-color: 		$flickr-bic}
 .flickr-2{background-color: 	$flickr-2-bic}
 .foursquare{background-color: 	$foursquare-bic}
 .googleplus{background-color: 	$googleplus-bic}
+.imdb{background-color:		 	$imdb-bic}
 .instagram{background-color: 	$instagram-bic}
 .linkedin{background-color: 	$linkedin-bic}
+.netflix{background-color: 		$netflix-bic}
+.paypal-pay{background-color: 	$paypal-pay-bic}
+.paypal-pal{background-color: 	$paypal-pal-bic}
 .pinterest{background-color: 	$pinterest-bic}
 .quora{background-color: 		$quora-bic}
+.skype{background-color: 		$skype-bic}
 .snapchat{background-color: 	$snapchat-bic}
 .spotify{background-color: 		$spotify-bic}
 .swarm{background-color: 		$swarm-bic}
@@ -109,6 +117,7 @@ p strong{
 .vimeo{background-color: 		$vimeo-bic}
 .vine{background-color: 		$vine-bic}
 .whatsapp{background-color: 	$whatsapp-bic}
+.yahoo{background-color: 		$yahoo-bic}
 .youtube{background-color: 		$youtube-bic}
 
 .colourslist ol li.more{
@@ -150,6 +159,15 @@ h1{
 
 .colourslist ol li{
 	width: 18%;
+	padding: 20px 1% 20px;
+	}
+	
+}
+
+@media all and (min-width: 1400px){ 
+
+.colourslist ol li{
+	width: 14.666666%;
 	padding: 20px 1% 20px;
 	}
 	

@@ -142,6 +142,12 @@ p strong {
     background: rgba(244, 244, 244, 0.2);
     padding: 2px; }
 
+.adobe {
+  background-color: #FF0000; }
+
+.airbnb {
+  background-color: #FF5A5F; }
+
 .behance {
   background-color: #1769FF; }
 
@@ -150,6 +156,9 @@ p strong {
 
 .dribbble {
   background-color: #ea4c89; }
+
+.evernote {
+  background-color: #6fb536; }
 
 .facebook {
   background-color: #3B5998; }
@@ -166,17 +175,32 @@ p strong {
 .googleplus {
   background-color: #dd4b39; }
 
+.imdb {
+  background-color: #E6B91E; }
+
 .instagram {
   background-color: #3F729B; }
 
 .linkedin {
   background-color: #0976B4; }
 
+.netflix {
+  background-color: #e50914; }
+
+.paypal-pay {
+  background-color: #00457C; }
+
+.paypal-pal {
+  background-color: #0079C1; }
+
 .pinterest {
   background-color: #cd1d1f; }
 
 .quora {
   background-color: #BC2016; }
+
+.skype {
+  background-color: #00AFF0; }
 
 .snapchat {
   background-color: #FFFA37; }
@@ -201,6 +225,9 @@ p strong {
 
 .whatsapp {
   background-color: #64d448; }
+
+.yahoo {
+  background-color: #780099; }
 
 .youtube {
   background-color: #CC181E; }
@@ -230,4 +257,8 @@ p strong {
 @media all and (min-width: 1200px) {
   .colourslist ol li {
     width: 18%;
+    padding: 20px 1% 20px; } }
+@media all and (min-width: 1400px) {
+  .colourslist ol li {
+    width: 14.666666%;
     padding: 20px 1% 20px; } }
