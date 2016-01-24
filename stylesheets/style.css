@@ -258,7 +258,7 @@ p strong {
   .colourslist ol li {
     width: 18%;
     padding: 20px 1% 20px; } }
-@media all and (min-width: 1400px) {
+@media all and (min-width: 1600px) {
   .colourslist ol li {
     width: 14.666666%;
     padding: 20px 1% 20px; } }
