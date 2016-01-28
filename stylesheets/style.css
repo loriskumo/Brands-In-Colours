@@ -163,6 +163,9 @@ p strong {
 .evernote {
   background-color: #6fb536; }
 
+.evernote-alt {
+  background-color: #20c05c; }
+
 .facebook {
   background-color: #3B5998; }
 
@@ -236,7 +239,7 @@ p strong {
   background-color: #780099; }
 
 .youtube {
-  background-color: #CC181E; }
+  background-color: #e52d27; }
 
 .colourslist ol li.more {
   flex-grow: 1; }
