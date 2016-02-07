@@ -37,6 +37,10 @@ a{
 	color: inherit;
 }
 
+.sortAction {
+  cursor: pointer;
+}
+
 p a{
 	color: $secondary;
 	border-bottom: 1px $secondary solid;

@@ -100,6 +100,9 @@ h1 {
 
 a {
   color: inherit; }
+  
+.sortAction {
+  cursor: pointer; }
 
 p a {
   color: #666;
