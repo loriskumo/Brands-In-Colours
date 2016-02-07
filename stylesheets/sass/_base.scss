@@ -55,6 +55,20 @@ p strong{
 	font-weight: bold;
 }
 
+p.sorting {
+  margin-top: 10px; }
+
+p.sorting a {
+  border: none;
+  color: #F4F4F4;
+  background: #444;
+  padding: 4px 8px;
+  margin-right: 8px;
+  border-radius: 2px; 
+  &:hover {
+    background: #AB00FF; }
+}
+
 .colorref{
 	text-transform: uppercase;
 }
@@ -118,6 +132,8 @@ p strong{
 .skype{background-color: 		$skype-bic}
 .snapchat{background-color: 	$snapchat-bic}
 .spotify{background-color: 		$spotify-bic}
+.sonarsource{background-color: 		$sonarsource-bic}
+.sonarqube{background-color: 		$sonarqube-bic}
 .swarm{background-color: 		$swarm-bic}
 .tumblr{background-color: 		$tumblr-bic}
 .twitter{background-color: 		$twitter-bic}

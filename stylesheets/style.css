@@ -100,7 +100,7 @@ h1 {
 
 a {
   color: inherit; }
-  
+
 .sortAction {
   cursor: pointer; }
 
@@ -114,6 +114,19 @@ p a {
 
 p strong {
   font-weight: bold; }
+
+p.sorting {
+  margin-top: 10px; }
+
+p.sorting a {
+  border: none;
+  color: #F4F4F4;
+  background: #444;
+  padding: 4px 8px;
+  margin-right: 8px;
+  border-radius: 2px; }
+  p.sorting a:hover {
+    background: #AB00FF; }
 
 .colorref {
   text-transform: uppercase; }
@@ -214,17 +227,17 @@ p strong {
 .skype {
   background-color: #00AFF0; }
 
-.sonarsource {
-	background-color: #C42422; }
-
-.sonarqube {
-  background-color: #2583AD; }
-
 .snapchat {
   background-color: #FFFA37; }
 
 .spotify {
   background-color: #32CE64; }
+
+.sonarsource {
+  background-color: #C42422; }
+
+.sonarqube {
+  background-color: #2583AD; }
 
 .swarm {
   background-color: #ffa633; }
