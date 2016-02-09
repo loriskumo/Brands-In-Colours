@@ -39,8 +39,8 @@ var data = [[ 'Adobe', '$adobe-bic', '#FF0000', 'rgb(255,0,0)' ],
             [ 'WhatsApp', '$whatsapp-bic', '#64D448', 'rgb(100,212,72)' ],
             [ 'Yahoo', '$yahoo-bic', '#780099', 'rgb(123,0,153)' ],
             [ 'YouTube', '$youtube-bic', '#e52d27', 'rgb(229,45,39)' ],
-            [ 'Sonarsource', '$sonarsource-bic', '#C42422', 'rgb(196,36,34)' ],
-            [ 'Sonarqube', '$sonarqube-bic', '#2583AD', 'rgb(37,131,173)'] ];
+            [ 'Sonarsource', '$sonarsource-bic', '#C32630', 'rgb(195,38,48)' ],
+            [ 'Sonarqube', '$sonarqube-bic', '#4B9FD5', 'rgb(75,159,213)'] ];
 
 // items are generated only once
 var items = _buildItems(data);
